@@ -10,7 +10,7 @@ answers:
   - text: "Yes, I am immunocompromised?"
     path: success
   - text: "No, I am not  immunocompromised"
-    path: q2
+    path: question-2
 
 # Whether this question includes related resources (yes or no)
 # To add resources, create a content page in the "_resources" folder and add this question's filename to the "related-page-name" setting, for example, who.md.
