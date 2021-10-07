@@ -2,15 +2,15 @@
 ### CONTENT ###
 
 # The question you want to ask
-text: Is your complaint about a healthcare provider, insurance provider, or data processing company?
+text: Are you immunocompromised?
 
 # The answer options and page name of destination associated with each answer
 # Add as many as you need.
 answers:
-  - text: "Yes, it is"
-    path: question-2
-  - text: "No, none of these apply"
-    path: q1-exit
+  - text: "Yes, I am immunocompromised?"
+    path: success
+  - text: "No, I am not  immunocompromised"
+    path: q2
 
 # Whether this question includes related resources (yes or no)
 # To add resources, create a content page in the "_resources" folder and add this question's filename to the "related-page-name" setting, for example, who.md.
